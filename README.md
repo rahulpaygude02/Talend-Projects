@@ -16,3 +16,9 @@ we have two different excel files that we have combined and applied some logic t
 once we get all passed product list, we will again filter out Good category and Bad category products.
 please refer the Image file for details.
 
+# ETL_ext
+
+Aim- Extracting car data from two excel files, combine it and stored it in SQL server as well as Excel file.
+
+we get two different excel files that we have combined and applied requested logic on them.
+we made connection with SQL server. hence after successful connection establish, data get stored with required details in sql server as well as new excel file.
