@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_VC5LYQfDEey3QvKh_Qvr7w" name="M_rating" dataPackage="_VC5LYgfDEey3QvKh_Qvr7w" Server="Localhost 127.0.0.1" FilePath="D:/TOS_BD-20200219_1130-V7.3.1/TOS_BD-20200219_1130-V7.3.1/dataset/car_ratings.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_VC5LYgfDEey3QvKh_Qvr7w" name="default" dataManager="_VC5LYQfDEey3QvKh_Qvr7w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_VC5LYwfDEey3QvKh_Qvr7w" id="_MtFXAAfDEey3QvKh_Qvr7w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VC5LZAfDEey3QvKh_Qvr7w" label="Car_ID" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VC5LZQfDEey3QvKh_Qvr7w" label="make" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VC5LZgfDEey3QvKh_Qvr7w" label="Sales_rating" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VC5LZwfDEey3QvKh_Qvr7w" label="body_style" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VC5LaAfDEey3QvKh_Qvr7w" label="drive_wheels" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
