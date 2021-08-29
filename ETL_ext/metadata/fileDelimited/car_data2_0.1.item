@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_0N0ngQctEeyp1vHW6lCAYQ" name="car_data2" dataPackage="_0N0nggctEeyp1vHW6lCAYQ" Server="Localhost 127.0.0.1" FilePath="D:/machine learning and DL ineuron/dataset/github projects/car_data/New folder/car2.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_0N0nggctEeyp1vHW6lCAYQ" name="default" dataManager="_0N0ngQctEeyp1vHW6lCAYQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_0N0ngwctEeyp1vHW6lCAYQ" id="_oDQIEActEeyp1vHW6lCAYQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0nhActEeyp1vHW6lCAYQ" label="Car_ID" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0nhQctEeyp1vHW6lCAYQ" label="make" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0nhgctEeyp1vHW6lCAYQ" label="fuel_type" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0nhwctEeyp1vHW6lCAYQ" label="aspiration" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0niActEeyp1vHW6lCAYQ" label="num_of_doors" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0niQctEeyp1vHW6lCAYQ" label="body_style" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0nigctEeyp1vHW6lCAYQ" label="drive_wheels" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0niwctEeyp1vHW6lCAYQ" label="engine_location" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0njActEeyp1vHW6lCAYQ" label="wheel_base" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0njQctEeyp1vHW6lCAYQ" label="length" length="5" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0njgctEeyp1vHW6lCAYQ" label="width" length="4" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N0njwctEeyp1vHW6lCAYQ" label="height" length="4" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
